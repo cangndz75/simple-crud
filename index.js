@@ -13,7 +13,7 @@ app.get('/',(req,res) => {
 })
 
 
-mongoose.connect("mongodb+srv://cang:159753sk@cluster0.zemsfaa.mongodb.net/deneeme?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://cang:<password>@cluster0.zemsfaa.mongodb.net/deneeme?retryWrites=true&w=majority&appName=Cluster0")
 .then(() => {
     console.log("Connected to database!")
     app.listen(3000, () => {
